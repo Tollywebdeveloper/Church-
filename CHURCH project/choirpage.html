@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us Page</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="churchindex.css">
+    <link rel="stylesheet" href="jquery.js">
+</head>
+<body>
+    <main role="main">
+        <nav class="navbar navbar-expand-md navbar-dark bgnav">
+               <a href="#"> <h1 class="navbar-brand">VOLAMINT</h1></a>
+               <button class="navbar-toggler" data-target="#tolly" data-toggle="collapse" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" aria-expanded="true" id="tolly">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="churchindex.html" class="nav-link active">Home</a></li>
+                    <div class="dropdown">
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" 
+                        aria-expanded="false" id="tolly">Annoucement</a>
+                        <div class="dropdown-menu" aria-labelledby="tolly" id="dropdown-trans">
+                            <a href="#" class="dropdown-item disabled"id="dropdown-menu-head"><strong>Mid-week services</strong></a>
+                            <a href="womenpage.html" class="dropdown-item" id="dropdown-menu-text">Monday:- Women program</a>
+                            <a href="biblepage.html" class="dropdown-item" id="dropdown-menu-text">Tuesday:- General Bible Study</a>
+                            <a href="choirpage.html" class="dropdown-item" id="dropdown-menu-text">Saturday:- Choir rehearsal</a>
+                            <a href="sundaypage.html" class="dropdown-item" id="dropdown-menu-text">Sunday:- Sunday service</a>
+                        </div>
+                    </li>
+                </div>
+                    <li class="nav-item"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false" id="two">Service</a>
+                        <div class="dropdown-menu" aria-labelledby="two" id="dropdown-second">
+                            <a href="sundaypage.html" class="dropdown-item" id="second-color" id="second-color">Sunday Service</a>
+                            <a href="#" class="dropdown-item" id="second-color" id="second-color">Monthly Prayer</a>
+                            <a href="#" class="dropdown-item" id="second-color" id="second-color">Ester Service</a>
+                            </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div> 
+        </nav>
+        <div class="jumbotron pastor">
+            <div class="carousel slide" data-ride="carousel">
+               <i> <p class="text text-left text-about">VOLAMINT CHOIR</p></i>
+               <p class="text"></p>
+            </div>
+        </div>
+        <main>
+            <div class="col-lg-12" id="footer">
+                    <h5 class="text text-center" id="news-text">Subscribe to our Newsletter</h5>
+
+                    <form action="" onsubmit="return nlVal()">
+                        <input type="text" id="news" class="form-control w-50" id="news" placeholder="ogundipetemitola@gmail.com" />
+                        <div class="error" id="error">
+                            
+                        </div>
+                        <input type="submit" class="form-control w-25" id="submit">
+                    </form>
+                    
+               
+                    <div class="row mt-5">
+                            <div class="col-md-4 ml-0">
+                                <h3>About Us</h3>
+                                <ul>
+                                    <li>Vision</li>
+                                    <li>History</li>
+                                    <li>Our Pastors</li>
+                                    <li>Core values</li>
+                                </ul>
+                                
+                                
+                            </div>
+                            <div class="col-md-4">
+                                    <h3>Service Time</h3>
+                                            <ul>
+                                                <li>Sunday service:9:00am-12:00pm </li>
+                                                <li>Bible study:5:00pm-6:30pm</li>
+                                                <li>Friday: 12:00am-3:00am</li>
+                                            </ul>
+                                            
+                            </div>
+                            
+                            <div class="col-md-4">
+                                    <h3>Contact Us</h3>
+                                    <p class="text text-font">
+                                        VOICE OF THE LORD'S APOSTOLIC <br>
+                                        INTERNATIONAL MINITRIES.<br>
+                                        Mimiko street,<br>
+                                        Ondo, Nigeria.<br>
+                                        Email:ogundipetemitola@gmail.com<br>
+                                        Phone No:080335708711<br>
+                                        <button class="btn btn-edit">Read more</button>
+                                    </p>
+                                            
+                            </div>
+                            </div>
+            </div>
+        </main>
+        <main role="main">
+           <div class="col-lg-12" id="foot-email">
+            <div class="container text-center mt-auto">
+                    <a href="#"><img src="./images/fblogo.png" id="img" alt="fbmedia" height="30px" width="30px" /></a>
+                    <a href="#"><img src="./images/tweetlogo.png"id="img" alt="fbmedia" height="30px" width="30px" /></a>
+                    <a href="#"><img src="./images/iglogo.png" id="img" alt="fbmedia" height="30px" width="30px" /></a>
+            </div>
+           </div>
+                    <!---<h6 class="text text-right  mr-5" id="footer-text">Copyright &copy; 2020 - VOICE OF THE LORD'S <br>
+                        APOSTOLIC MINISTRY INTERNATIONAL
+                        </h6>
+                        <p class="text text-right mt-5 mr-5"> 
+                                <a href="#"><img src="" alt="fbmedia" /></a>
+                                <a href="#"><img src="" alt="fbmedia" /></a>
+                                <a href="#"><img src="" alt="fbmedia" /></a>
+                                <a href="#"><img src="" alt="fbmedia" /></a>
+                            </p>
+       
+        </main>
+            ---->
+
+        
+    </main> 
+    <script src="jquery-slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+</html>
